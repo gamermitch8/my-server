@@ -1,0 +1,43 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_button_event" id="y`~HJFF{8TBT+5^:,w8," x="-745" y="-30"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="basic_show_icon" id="@[6w?A8{r.GW/WEHli=F"><field name="i">IconNames.Chessboard</field><next><block type="device_pause" id="cz8E-wqz]pnR?9wAsQ*j"><value name="pause"><shadow type="timePicker" id="SooL)K^W]T~ZquaQ_{tV"><field name="ms">100</field></shadow></value><next><block type="controls_repeat_ext" id="W8Nqv$yyt.n`3eclvnp`"><value name="TIMES"><shadow type="math_whole_number" id="o`s?~V+muu7s3g?pT16~"><field name="NUM">4</field></shadow></value><statement name="DO"><block type="device_show_leds" id="dsT0wP}|;df4q$RJpSzf"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        . . # . . 
+        . . . . .
+        `</field><next><block type="device_pause" id="7bl{liqUu-?Ry%)d+/Ac"><value name="pause"><shadow type="timePicker" id="rJe,BOgR{0aQlL=Q]BJ2"><field name="ms">100</field></shadow></value><next><block type="device_show_leds" id="U+6VP6S4]-=Kz]{lD:l7"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        . # # # . 
+        . . . . .
+        `</field><next><block type="device_pause" id="5e?3j0Yur1h8o+twz!3X"><value name="pause"><shadow type="timePicker" id="7wYPOxly4)H$K#N_2G.g"><field name="ms">100</field></shadow></value><next><block type="device_show_leds" id="T8l6K/e~]W5jj(?9^zk`"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        # # # # # 
+        . . . . .
+        `</field></block></next></block></next></block></next></block></next></block></statement><next><block type="basic_show_icon" id="-*#_!g,U+Lw@PKOA;LgZ"><field name="i">IconNames.Happy</field></block></next></block></next></block></next></block></statement></block><block type="device_button_event" id="1p1iToj/61k{F0EY=?H;" x="-392" y="-13"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="basic_show_icon" id="pTsR4(H@k8?JT)I6Dg7T"><field name="i">IconNames.Chessboard</field><next><block type="device_pause" id="M;)rb-__S^%f`YU]Ho+R"><value name="pause"><shadow type="timePicker" id="09Zxp`#7!Wjwz#Nv`:|b"><field name="ms">100</field></shadow></value><next><block type="controls_repeat_ext" id="(i^%3j8?,cQ#.rCg]{wx"><value name="TIMES"><shadow type="math_whole_number" id="$)h*whCIx;Mu`~S*dy*)"><field name="NUM">4</field></shadow></value><statement name="DO"><block type="device_show_leds" id="%Dm(DaS{ZS;/$s|v/cNw"><field name="LEDS">`
+        # . . . . 
+        # . # . # 
+        . . . . . 
+        . . # # . 
+        . # . . #
+        `</field><next><block type="device_pause" id="jquz#dTTcu4;`Eoo7XQq"><value name="pause"><shadow type="timePicker" id="a_Tfk{4ceJ`k8.6N_gH@"><field name="ms">100</field></shadow></value><next><block type="device_show_leds" id="f5#OZk#wm.M?)ZZ{(O85"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        . . # # . 
+        # . . . #
+        `</field><next><block type="device_pause" id="TUcKe!JCVCV^QzHM5^i/"><value name="pause"><shadow type="timePicker" id="tSO6u:C7g;gQue`Es[:w"><field name="ms">100</field></shadow></value></block></next></block></next></block></next></block></statement><next><block type="device_print_message" id="4l*8Ohvw`)*re`GhewNW"><value name="text"><shadow type="text" id="?j85.b#;=$A7JV7#9RsG"><field name="TEXT">aa i got hit by a rock</field></shadow></value><next><block type="device_show_leds" id="kI4lD5L5qZbK|pG*?hsw"><field name="LEDS">`
+        . # . # . 
+        # . . . # 
+        . . . . . 
+        . # # # . 
+        # . . . #
+        `</field></block></next></block></next></block></next></block></next></block></statement></block><block type="pxt-on-start" id="UCg;M`hOR06{$ZaJc{KS" x="0" y="0"><statement name="HANDLER"><block type="basic_show_icon" id="ns%i9AKMfGrpKj`[_W`m"><field name="i">IconNames.Sad</field></block></statement></block><block type="device_gesture_event" id="Ev6HKVrMZN82ruB+ZIQk" x="194" y="13"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="device_show_leds" id="3F%]WJmb+!NJN8x^=lu3"><field name="LEDS">`
+        . # . # . 
+        # . . . # 
+        . . . . . 
+        . # # # . 
+        # . . . #
+        `</field></block></statement></block></xml>
